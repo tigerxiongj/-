@@ -5,3 +5,7 @@ webpack：https://webpack.docschina.org/concepts/
 Umi:https://umijs.org/zh-CN/docs
 Dva:https://github.com/dvajs/dva
 Ts:https://www.tslang.cn/docs/home.html
+
+
+问题和坑：
+跨域：https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS
