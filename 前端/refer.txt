@@ -5,7 +5,8 @@ webpack：https://webpack.docschina.org/concepts/
 Umi:https://umijs.org/zh-CN/docs
 Dva:https://github.com/dvajs/dva
 Ts:https://www.tslang.cn/docs/home.html
-
+Es6： https://m.w3cschool.cn/ecmascript/
+react+ts: https://typescript.bootcss.com/tutorials/react.html
 
 问题和坑：
 跨域：https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS
