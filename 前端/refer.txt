@@ -4,7 +4,11 @@ Node.js: https://nodejs.dev/introduction-to-nodejs
 webpack：https://webpack.docschina.org/concepts/
 Umi:https://umijs.org/zh-CN/docs
 Dva:https://github.com/dvajs/dva
-Ts:https://www.tslang.cn/docs/home.html
+
+Ts:
+https://www.tslang.cn/docs/home.html
+https://jkchao.github.io/typescript-book-chinese/typings/ambient.html#%E5%A3%B0%E6%98%8E%E6%96%87%E4%BB%B6
+
 Es6： https://m.w3cschool.cn/ecmascript/
 react+ts: https://typescript.bootcss.com/tutorials/react.html
 
