@@ -4,6 +4,7 @@ Node.js: https://nodejs.dev/introduction-to-nodejs
 webpack：https://webpack.docschina.org/concepts/
 Umi:https://umijs.org/zh-CN/docs
 Dva:https://github.com/dvajs/dva
+Js：https://javascript.info/
 
 Ts:
 https://www.tslang.cn/docs/home.html
