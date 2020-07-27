@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>左边竖条</title>
+  <style type="text/css">
+    /*https://www.cnblogs.com/coco1s/p/5893921.html*/
+    div {
+      position: relative;
+      width: 200px;
+      height: 60px;
+      background: #ddd;
+    }
+
+    /*通过border实现*/
+    div {
+      border-left: 5px solid deeppink;
+    }
+
+    /*通过伪元素实现before和after*/
+    /*div::after {
+      content: "";
+      height: 60px;
+      width: 5px;
+      position: absolute;
+      left: -5px;
+      top: 0;
+      background: deeppink;
+    }*/
+
+    /*阴影*/
+   /* div {
+      box-shadow: inset 5px 0px deeppink;
+      box-shadow: -5px 0px deeppink;
+      filter: drop-shadow(-5px 0px deeppink);
+    }*/
+
+    /*渐变*/
+    /*90度变化，0px的唯一为deeppink，到5px的地方颜色一样，从5px到5px变为透明，后面都是透明*/
+   /* div {
+      background-image: linear-gradient(90deg, deeppink 0px, deeppink 5px, transparent 5px);
+    }*/
+
+    /*轮廓，伪元素会遮住原来的内容*/
+    /*div {
+      outline:5px solid deeppink;
+    }
+    div::after{
+      position:absolute;
+      content:"";
+      top:-5px;
+      bottom:-5px;
+      right:-5px;
+      left:0px;
+      background:#ddd;
+    }*/
+
+    /*使用y方向的滚动条挡住背景，如果有内容的话，高度有问题*/
+   /* div {
+      background:deeppink;
+      overflow-y:scroll;
+    }
+    div::-webkit-scrollbar{
+      width: 195px;
+      background-color:#ddd;
+    }*/
+  </style>
+</head>
+<body>
+  <div>test</div>
+</body>
+</html>
